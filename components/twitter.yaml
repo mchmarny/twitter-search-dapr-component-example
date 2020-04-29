@@ -14,4 +14,4 @@ spec:
   - name: accessSecret
     value: ""
   - name: query
-    value: "serverless"
+    value: "dapr"
