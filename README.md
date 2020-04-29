@@ -74,7 +74,7 @@ Assuming everything went OK, you should see something like this:
 ✅  You're up and running! Both Dapr and your app logs will appear here.
 ```
 
-Hope you found this demo helpful. You can find my notes I captured during building this demo [here](./NOTES.md).
+Hope you found this demo helpful. 
 
 ## Disclaimer
 
