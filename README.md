@@ -7,7 +7,7 @@ Example of how to use Twitter search input component in [godapr](https://github.
 
 ### dapr
 
-To run this demo locally, you will have to have install [dapr](https://github.com) along with all its dependencies (e.g. Docker). The instructions for how to do that can be found [here](https://github.com/dapr/docs/blob/master/getting-started/environment-setup.md).
+To run this demo locally, you will have to have install [dapr](https://github.com). The instructions for how to do that can be found [here](https://github.com/dapr/docs/blob/master/getting-started/environment-setup.md).
 
 ### Twitter
 
