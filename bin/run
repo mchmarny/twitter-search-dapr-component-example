@@ -3,14 +3,11 @@
 set -o errexit
 set -o pipefail
 
-DIR="$(dirname "$0")"
-. "${DIR}/config"
-
 go mod tidy
 go mod vendor
 
 dapr run go run handler.go main.go \
+         --log-level debug \
          --app-id "consumer" \
-         --app-port 8081 \
-         --protocol http \
-         --port 3500
+         --app-port 8080 \
+         --protocol http

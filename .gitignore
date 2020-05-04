@@ -9,3 +9,4 @@
 
 components/twitter-secrets.yaml
 components/statestore.yaml
+components/pubsub.yaml

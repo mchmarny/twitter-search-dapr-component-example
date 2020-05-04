@@ -24,7 +24,6 @@ func defaultHandler(c *gin.Context) {
 }
 
 func tweetHandler(c *gin.Context) {
-
 	var t twitter.Tweet
 	if err := c.ShouldBindJSON(&t); err != nil {
 		logger.Printf("error binding tweet: %v", err)

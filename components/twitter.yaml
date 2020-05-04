@@ -6,12 +6,12 @@ spec:
   type: bindings.twitter
   metadata:
   - name: consumerKey
-    value: ""
+    value: "****" # twitter api consumer key, required
   - name: consumerSecret
-    value: ""
+    value: "****" # twitter api consumer secret, required
   - name: accessToken
-    value: ""
+    value: "****" # twitter api access token, required
   - name: accessSecret
-    value: ""
+    value: "****" # twitter api access secret, required
   - name: query
-    value: "dapr"
+    value: "dapr" # your search query, required
